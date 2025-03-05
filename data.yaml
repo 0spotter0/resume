@@ -1,0 +1,82 @@
+personal:
+  name: Samuel Potter
+  phone: (323) 594-5711
+  email: s.potter@rochester.edu
+  linkedin: linkedin.com/in/pottersammy
+  site: sammypotter.com
+education:
+  - name: University of Rochester
+    degree: Bachelor of Science in Computer Science
+    location: Rochester, NY
+    date: Aug 2021 – May 2025
+    courses: "Programming Languages, Computer Organization, Deep Learning, Software Development"
+    awards:
+      - "Outstanding Undergraduate Researcher Award Honorable Mention, Computing Research Association"
+      - "Best Space-Themed App, DandyHacks 2021"
+publications:
+  - citation: "M. Hasan, C. Ozel, S. Potter and E. Hoque, \"SAPIEN: Affective Virtual Agents Powered by Large Language Models,\" in 2024 Conference on Neural Information Processing Systems."
+  - citation: "Masum Hasan, Cengiz Ozel, Nina Long, Alexander Martin, Samuel Potter, Tariq Adnan, Sangwu Lee, Amir Zadeh and Ehsan Hoque, \"Hi5: 2D Hand Pose Estimation with Zero Human Annotation,\" in 2023 11th International Conference on Affective Computing and Intelligent Interaction Workshops and Demos (ACIIW), Cambridge, MA, USA, 2023 pp. 1-3."
+experience:
+  - role: AI Engineer
+    name: Saudi Authority for Data and Artificial Intelligence
+    location: Remote
+    date: Nov 2023 – Sep 2024
+    points:
+      - "Co-developed KALEEM: a humanoid tutor that is personalized, adaptive, multimodal and available anytime, anywhere."
+      - The system was premiered at the Global AI Summit 2024 organized by the Kingdom of Saudi Arabia.
+      - NDA – No further information available.
+  - role: Research Assistant – Full Stack
+    name: University of Rochester Human Computer Interaction Lab
+    location: Rochester, NY
+    date: June 2022 – Nov 2023
+    points:
+      - Developed and tested methods for synthetic data generation for hand tracking machine learning models using Unity.
+      - Leveraged GPT-4 and Unreal Engine 5 to develop a virtual chatbot for teaching, job interview and conversation practice.
+      - Created an interactive full stack website for the chatbot using Flask on Amazon Web Services.
+      #- "Co-authored, published, and demoed the SAPIEN paper at the ACII 2023 Conference (see Publications)."
+  - role: "Teaching Assistant – Intro to Java Programming"
+    name: "University of Rochester"
+    location: Rochester, NY
+    date: Jan 2022 – June 2022
+    points:
+      - Led two 75-minute workshops of 12 students each per week.
+      - Facilitated students to engage with course material and with each other in an interactive learning environment.
+      - Produced a final research project aimed at improving the CS learning experience through virtual online exercises.
+projects:
+  - name: ThankYouEpicDB
+    skills: Python, Next.js, Flask, ElasticSearch, React, Postgres, Tailwind
+    date: Present
+    points:
+      - Designed and implemented an index of 8,000+ images and videos for a meme library, enabling semantic search.
+      - Integrated AI-based content analysis, storing results in an ElasticSearch database to enable semantic search and retrieval.
+      - Developed front end website for querying the database using Next.js.
+  - name: "Salendar: DandyHacks 2023"
+    skills: Next.js, TypeScript, Python, Flask
+    date: Nov 2023
+    points:
+      - Developed a full-stack application with Next.js and Flask enabling automatic course schedule calendar setup.
+      - Utilized the Google Cloud and OpenAI API to streamline syllabus parsing and Google calender generation.
+  - name: "Spotify Song Predictor: CSC 240: Data Mining"
+    skills: Python, Data Cleaning, Data Mining
+    date: Apr 2023
+    points:
+      - Performed data cleaning and feature selection on data from 30,000 songs over 15 attributes.
+      - Trained a Decision Tree Classifier and a Gradient-Boosted Tree Classifier in Python to classify songs as hits or flops.
+      - Developed a front-end to allow users to interact with and test our model’s performance.
+      - Prepared and delivered a presentation on our results, winning ‘best presentation of the day.’
+      # - name: "SpaceScape: DandyHacks 2021"
+#   skills: Lua
+#   date: Oct 2021
+#   points:
+#     - In a 3-person team, developed a two-player 2D space shooter with a custom physics & collision engine in Lua.
+#     - Developed a working knowledge of Lua during the 48-hour event.
+#     - Best Space Themed App – DandyHacks 2021
+skills:
+  - category: Languages
+    skills: Java, Python, C, C#, SQL, PostgreSQL, TypeScript, HTML/CSS, Swift
+  - category: Frameworks
+    skills: React, Node.js, Next.js, Flask, Tailwind, SwiftUI
+  - category: Tools
+    skills: Git, Gradle, AWS, Google Cloud, Neovim, Adobe Creative Suite, Unity, Unreal Engine 5, ElasticSearch, Excel
+    #  - category: Libraries
+    #    skills: pandas, NumPy, Matplotlib
