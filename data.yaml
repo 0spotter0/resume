@@ -50,6 +50,13 @@ projects:
       - Designed and implemented an index of 8,000+ images and videos for a meme library, enabling semantic search.
       - Integrated AI-based content analysis, storing results in an ElasticSearch database to enable semantic search and retrieval.
       - Developed front end website for querying the database using Next.js.
+  - name: "Pawntastic Emulator: CSC 242: Artificial Intelligence"
+    skills: Java, Artificial Intelligence
+    date: October 2023
+    points:
+      - Designed an emulator for Pawntastic games of variable board sizes on the command line using Java.
+      - Implemented move and win condition validation to ensure gameplay integrity.
+      - Created configurable opponents using MiniMax and H-MiniMax with depth pruning.
   - name: "Salendar: DandyHacks 2023"
     skills: Next.js, TypeScript, Python, Flask
     date: Nov 2023
@@ -64,13 +71,6 @@ projects:
       - Trained a Decision Tree Classifier and a Gradient-Boosted Tree Classifier in Python to classify songs as hits or flops.
       - Developed a front-end to allow users to interact with and test our model’s performance.
       - Prepared and delivered a presentation on our results, winning ‘best presentation of the day.’
-      # - name: "SpaceScape: DandyHacks 2021"
-#   skills: Lua
-#   date: Oct 2021
-#   points:
-#     - In a 3-person team, developed a two-player 2D space shooter with a custom physics & collision engine in Lua.
-#     - Developed a working knowledge of Lua during the 48-hour event.
-#     - Best Space Themed App – DandyHacks 2021
 skills:
   - category: Languages
     skills: Java, Python, C, C#, SQL, PostgreSQL, TypeScript, HTML/CSS, Swift
