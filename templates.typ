@@ -62,7 +62,7 @@
   location: "Foo, BA",
   date: "Aug. 1600 - May 1750",
   courses: "Intro to Screaming, Advanced Crying",
-  .. awards
+  award: "Nothingburger, First Place"
 ) = {
   set block(above: 0.7em, below: 1em)
   pad(left: INDENT_WIDTH, right: INDENT_WIDTH, box[
@@ -78,9 +78,10 @@
       ]
     )
     #pad(top: -.3em, left: INDENT_WIDTH, [
-      Relevant coursework: #courses \
-      #text(weight: "bold", [Awards:])
-      #list(..awards)
+      #list(
+        [*Relevant coursework:* #courses],
+        [*Awarded:* #award],
+      )
     ])
   ])
 }
@@ -104,7 +105,7 @@
   location: "Foo, BA",
   ..points
 ) = {
-    set block(above: 0.7em, below: 1em)
+    set block(above: 0.7em, below: 0.8em)
     pad(left: INDENT_WIDTH, right: INDENT_WIDTH, box[
       #grid(
         columns: (3fr, 1fr),

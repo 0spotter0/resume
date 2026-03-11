@@ -20,7 +20,7 @@
       location: edu.location,
       date: edu.date,
       courses: edu.courses,
-      .. edu.awards
+      award: edu.award
     )
   }
 }
