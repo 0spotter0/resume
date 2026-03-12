@@ -20,9 +20,9 @@ experience:
     location: Remote
     date: Mar 2025 – Present
     points:
+      - Expanded access to child Autism speech therapy in Saudi Arabia by building an AI diagnostic tool to augment human experts.
       - Maintained deployments of full stack applications in NextJS on the Alibaba cloud.
       - Led a gradual codebase migration from JavaScript to TypeScript, improving developer experience and reliability.
-      - Expanded access to Autism speech therapy assessments by building an AI diagnostic tool to augment human experts.
       - Developed a PTSD screening tool, validated through a 16-participant soldier-clinician study and submitted to IVA 2026.
   - role: AI Engineer
     name: Saudi Authority for Data and Artificial Intelligence
