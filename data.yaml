@@ -69,4 +69,4 @@ skills:
   - category: Frameworks & Runtimes
     skills: Node.js, React, Next.js, Flask, Sanic, Tailwind, SwiftUI
   - category: DevOps & Tools
-    skills: Git, Docker, Gradle, AWS, Google Cloud, Neovim
+    skills: Git, Claude Code, Docker, AWS, Google Cloud, Neovim
